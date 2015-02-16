@@ -1,0 +1,43 @@
+body {
+    background: url('background.jpg') no-repeat center center;
+}
+.card-container:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content: '';
+}
+h1 {
+    text-transform: uppercase;
+    text-shadow: 0 1px 5px grey;
+    color: white;
+    font-size: 45px;
+    line-height: 60px;
+}
+.position,
+.links-container a {
+    color: grey;
+    text-decoration: none;
+}
+.card {
+    display: inline-block;
+    vertical-align: middle;
+}
+.links-container {
+    padding-left: 0;
+}
+.links-container li {
+    list-style-type: none;
+    display: inline-block;
+}
+.links-container li:after {
+    content:'|';
+    padding: 20px;
+}
+.links-container li:first-child:before {
+    content: '<';
+    padding-right: 20px;
+}
+.links-container li:last-child:after {
+    content:'>';
+}
