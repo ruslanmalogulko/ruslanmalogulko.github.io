@@ -1,5 +1,5 @@
 body {
-    background: url('background.jpg') no-repeat center center;
+    // background: url('background.jpg') no-repeat center center;
 }
 .card-container:before {
     display: inline-block;
