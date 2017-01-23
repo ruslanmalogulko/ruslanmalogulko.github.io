@@ -8,9 +8,11 @@ body {
     content: '';
 }
 h1 {
-    text-transform: uppercase;
     text-shadow: 0 1px 5px grey;
-    color: white;
+    color: black;
+    word-spacing: 1em;
+    letter-spacing: 1.2rem;
+    font-weight: normal;
     font-size: 45px;
     line-height: 60px;
 }
@@ -18,6 +20,10 @@ h1 {
 .links-container a {
     color: grey;
     text-decoration: none;
+    transition: text-shadow 0.3s;
+}
+.links-container a:hover {
+    text-shadow: 0 0 0.3px black;   
 }
 .card {
     display: inline-block;
